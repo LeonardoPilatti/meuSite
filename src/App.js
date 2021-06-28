@@ -11,8 +11,10 @@ function App() {
   return (
     <BrowserRouter>
       <Container>
-        <Header />
-        <section>
+        <section className="header">
+          <Header />
+        </section>
+        <section className="body">
           <Routes />
           <Footer />
         </section>

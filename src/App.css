@@ -485,3 +485,11 @@ table {
 }
 
 /* final reset */
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
