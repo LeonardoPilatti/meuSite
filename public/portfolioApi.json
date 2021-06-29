@@ -1,0 +1,204 @@
+[
+  {
+    "id": 1,
+    "name": "Clone Netflix",
+    "image": "../src/assets/portfolio/netflix.jpg",
+    "description": "Projeto desenvolvido seguindo o layout do site da Netflix. Utilizando a API 'TheMovieDB', que disponibiliza todas as descrições e imagens dos filmes e séries.",
+    "tecnologia": [
+      "ReactJS",
+      "Manipulação de API",
+      "CSS3",
+      "Responsividade",
+      "Flexbox"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Energia Limpa",
+    "image": "./assets/portfolio/energy.jpg",
+    "description": "Projeto desenvolvido após conclusão do curso de Javascript ES6+ da Origamid, objetivando fixar os conteúdos absorvidos no curso. É um projeto totalmente responsivo para os diferentes tamanhos de telas, possuindo as animações mais importantes com auxílio do Javascript.",
+    "tecnologia": [
+      "Javascript ES6+",
+      "HTML5",
+      "CSS3",
+      "Responsividade",
+      "Flexbox"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Clone Pedigree",
+    "image": "./assets/portfolio/pedigree.jpg",
+    "description": "Clone desenvolvido sobre o layout do site da Pedigree, objetivando o máximo possível de fidelidade ao original. Possuindo as mesmas animações do site, todas criadas com javascript puro.",
+    "tecnologia": [
+      "Javascript ES6+",
+      "HTML5",
+      "CSS3",
+      "Responsividade",
+      "Flexbox"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "WildBeast",
+    "image": "./assets/portfolio/wildBeast.jpg",
+    "description": "Projeto desenvolvido no curso de 'CSS Grid Layout' da Origamid. Foi utilizado o máximo potencial do sistema de Grid, conseguindo posicionar elementos na tela que antes eram necessárias várias linhas de código CSS, em uma quantidade muito menor.",
+    "tecnologia": [
+      "HTML5",
+      "CSS3",
+      "Responsividade",
+      "Grid Layout",
+      "Grid Container",
+      "Media Querie",
+      "Grid Item"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "BikCraft",
+    "image": "./assets/portfolio/bikcraft.jpg",
+    "description": "Projeto desenvolvido no curso de 'Web Design Completo' da Origamid. Foi o primeiro curso e site que fiz. O projeto é sobre uma empresa de venda de bicicletas personalizadas, tendo as páginas: inicial, sobre, produtos, portfólio, contato e blog. É um projeto super completo, abordando vários temas pertinentes ao desenvolvimento FrontEnd, desde a prototipação no Adobe XD, codificação e até hospedagem.",
+    "tecnologia": [
+      "Javascript ES6+",
+      "HTML5",
+      "CSS3",
+      "Responsividade",
+      "Grid",
+      "SEO",
+      "Analytics",
+      "Adobe Xd"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "DevsFood",
+    "image": "./assets/portfolio/devsFood.jpg",
+    "description": "Projeto desenvolvido no curso de 'ReactJS' da B7WEB, abordando uma empresa de entregas de comida, onde foi utilizado uma API própria para o curso. Tendo todos os recursos necessários para uma loja online, como carrinho de compras e perfil de usuário.",
+    "tecnologia": [
+      "ReactJS",
+      "Styled Components",
+      "Redux",
+      "UseState",
+      "UseEffect",
+      "Responsividade",
+      "Adobe Xd",
+      "API",
+      "React Router Dom"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Clone Olx",
+    "image": "./assets/portfolio/cloneOlx.jpg",
+    "description": "Projeto Desenvolvido no curso de ReactJS da B7WEB, utlizando API para criação de usuários e postagens de anúncios. É um projeto com funcionalidades semelhantes ao site Olx, totalmente responsivo e funcional, mostrando o potencial do ReactJS.",
+    "tecnologia": [
+      "ReactJS",
+      "Styled Components",
+      "Redux",
+      "Responsividade",
+      "Adobe Xd",
+      "API",
+      "UseState",
+      "UseEffect",
+      "Cookies",
+      "React Router Dom"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Brafé",
+    "image": "./assets/portfolio/brafe.jpg",
+    "description": "Projeto Desenvolvido no curso de 'CSS Avançado Posicionamento' da Origamid. Foram desenvolvidos vários layouts do mesmo site, utilizando tecnologias diferentes para alcançar o mesmo objetivo, para fixar melhor o conteúdo de CSS.",
+    "tecnologia": [
+      "HTML5",
+      "CSS3",
+      "Flexbox",
+      "Grid",
+      "Bootstrap",
+      "responsividade"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Animais Fantásticos",
+    "image": "./assets/portfolio/animaisFantasticos.jpg",
+    "description": "Projeto Desenvolvido no 'curso JavaScrip Completo ES6+' da Origamid. Projeto final do curso, onde foram aplicados conhecimentos para criar animações e interações com o usuário, como modal, tooltip, menu mobile, entre outras animações. Projeto bem completo, abordando aspectos completos do Javascript.",
+    "tecnologia": [
+      "HTML5",
+      "CSS3",
+      "JavaScript ES6+",
+      "Grid Layout",
+      "LocalStorage",
+      "API",
+      "Async/Await",
+      "Regexp",
+      "Webpack",
+      "ESlint",
+      "NPM",
+      "Babel",
+      "Git",
+      "responsividade"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Dogs",
+    "image": "./assets/portfolio/dogs.jpg",
+    "description": "Projeto Desenvolvido no curso de 'React Completo' da Origamid. Esse projeto consiste em uma rede social para cachorros, onde utilizando API, é possível criar usuários, entrar na conta, postar fotos, comentar e visualizar postagens. É um projeto bem interessante, sendo parecido com o Instagram.",
+    "tecnologia": [
+      "ReactJS",
+      "React Router Dom",
+      "CSS modules",
+      "Hooks",
+      "componentes funcionais",
+      "rotas privadas"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Little Invest",
+    "image": "./assets/portfolio/littleInvestiment.jpg",
+    "description": "Foi utilizado o protótipo do curso de 'Adobe XD' da Origamid para codificar este projeto. É um projeto sobre um banco, somente com a página inicial, para fixar conteúdos sobre FlexBox.",
+    "tecnologia": ["HTML5", "CSS3", "Responsividade", "Flexbox"]
+  },
+  {
+    "id": 12,
+    "name": "Le Scone",
+    "image": "./assets/portfolio/leScone.jpg",
+    "description": "Projeto desenvolvido no curso de 'CSS com SASS' da Origamid. No projeto foram utilizados as principais funções do SASS e como ele facilita bastante a manutenção e codificação dos projetos. Foi utilizado um sistema de Grid próprio do SASS.",
+    "tecnologia": ["HTML5", "CSS3", "SASS", "Variáveis", "Mixins", "Import"]
+  },
+  {
+    "id": 13,
+    "name": "Flex Blog",
+    "image": "./assets/portfolio/flexBlog.jpg",
+    "description": "Projeto desenvolvido no curso de 'CSS Flexbox' da Origamid. Projeto de página única, bem interessante para aprender Flexbox, utilizando o máximo dessa forma de posicionar os elementos na tela.",
+    "tecnologia": [
+      "HTML5",
+      "CSS3",
+      "Flebox",
+      "Flex Container",
+      "Responsividade"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Urna Eletrônica",
+    "image": "./assets/portfolio/urnaEletronica.jpg",
+    "description": "Projeto desenvolvido para reforçar o conhecimento em Javascript puro e CSS. O projeto possui as mesmas funcionalidades de uma urna de votação real, podendo votar em branco, nulo e escolher seus candidatos.",
+    "tecnologia": [
+      "HTML5",
+      "CSS3",
+      "Flebox",
+      "Javascript ES6+",
+      "Responsividade"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Lion",
+    "image": "./assets/portfolio/lion.jpg",
+    "description": "Projeto desenvolvido para reforçar o conhecimento em CSS3 e HTML5. O site é sobre leões, apresentando algumas características sobre a espécie, com a organização possível graças ao CSS Grid Layout.",
+    "tecnologia": ["HTML5", "CSS3", "Grid Layout", "Responsividade"]
+  }
+]

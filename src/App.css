@@ -493,3 +493,8 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.container {
+  margin: 0 40px;
+  max-width: 1200px;
+}
