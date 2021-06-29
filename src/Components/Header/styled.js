@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const SectionHeader = styled.section`
   padding: 20px;
   color: #fff;
+  display: flex;
+  flex-direction: column;
   .fotoPerfil img {
     border-radius: 50%;
     height: 200px;
@@ -30,8 +32,8 @@ export const SectionHeader = styled.section`
         padding: 5px;
         transition: all ease 0.3s;
         img {
-          height: 25px;
-          width: 25px;
+          height: 22px;
+          width: 22px;
         }
         &:hover {
           margin-bottom: 10px;
@@ -41,16 +43,30 @@ export const SectionHeader = styled.section`
   }
 
   .navegacao {
-    display: flex;
+    flex: 1;
+    ul {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 0px;
+      li {
+        margin: 5px;
+      }
+    }
   }
 
   .darkWhite {
     /* The switch - the box around the slider */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin: 10px 30px;
+    align-items: center;
+
     .switch {
       position: relative;
       display: inline-block;
-      width: 60px;
-      height: 34px;
+      width: 50px;
+      height: 20px;
     }
 
     /* Hide default HTML checkbox */
@@ -76,10 +92,10 @@ export const SectionHeader = styled.section`
     .slider:before {
       position: absolute;
       content: '';
-      height: 26px;
-      width: 26px;
-      left: 4px;
-      bottom: 4px;
+      height: 20px;
+      width: 20px;
+      left: 2px;
+      bottom: 0px;
       background-color: white;
       -webkit-transition: 0.4s;
       transition: 0.4s;

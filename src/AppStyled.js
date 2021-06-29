@@ -8,7 +8,8 @@ export const Container = styled.section`
     width: 250px;
   }
   .body {
-    background-color: #37393e;
+    background-color: #282a2d;
     flex: 1;
+    overflow-y: auto;
   }
 `;

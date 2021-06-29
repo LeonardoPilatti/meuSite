@@ -1,5 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from 'react';
+import MenuItem from '../MenuItem';
+
 import fotoPerfil from '../../assets/fotoPerfil.jpg';
 import linkedin from '../../assets/redesSociais/linkedin.svg';
 import gitHub from '../../assets/redesSociais/gitHub.png';
@@ -7,7 +9,6 @@ import whatsApp from '../../assets/redesSociais/whatsapp.svg';
 import instagram from '../../assets/redesSociais/instagram.svg';
 
 import { SectionHeader } from './styled';
-import { Link } from 'react-router-dom';
 
 export default () => {
   return (
@@ -49,28 +50,32 @@ export default () => {
       <nav className="navegacao">
         <ul>
           <li>
-            <Link to="/">Início</Link>
+            <MenuItem link="/">Início</MenuItem>
           </li>
           <li>
-            <Link to="/Sobre">Sobre</Link>
+            <MenuItem link="/Sobre">Sobre</MenuItem>
           </li>
           <li>
-            <Link to="/Habilidades">Habilidades</Link>
+            <MenuItem link="/Habilidades">Habilidades</MenuItem>
           </li>
           <li>
-            <Link to="/Portfolio">Portfólio</Link>
+            <MenuItem link="/Portfolio">Portfólio</MenuItem>
           </li>
           <li>
-            <Link to="/Contato">Contato</Link>
+            <MenuItem link="/Contato">Contato</MenuItem>
           </li>
         </ul>
       </nav>
-      <form className="darkWhite">
-        <label className="switch">
-          <input type="checkbox" />
-          <span className="slider round"></span>
-        </label>
-      </form>
+      <div className="darkWhite">
+        <p className="Plight">Light</p>
+        <form>
+          <label className="switch">
+            <input type="checkbox" />
+            <span className="slider round"></span>
+          </label>
+        </form>
+        <p className="Pdark">Dark</p>
+      </div>
     </SectionHeader>
   );
 };
